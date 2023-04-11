@@ -7,7 +7,7 @@ int main()
     SetConsoleOutputCP(65001);
 
     int price, change;
-    printf("请输入价格");
+    printf("请输入价格\n");
     scanf("%d", &price);
     printf("价格为%d\n", 100 - price);
 
